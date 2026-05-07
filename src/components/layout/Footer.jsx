@@ -29,13 +29,8 @@ export default function Footer() {
               <span className="text-white font-syne font-bold text-lg">BGaurded</span>
             </div>
             <p className="text-sm text-white/35 max-w-xs leading-relaxed">
-<<<<<<< HEAD
               The Agent Accountability Protocol for AI Agents.<br />
               Powered by Solana and Arweave.
-=======
-              The trust layer for the agentic economy.<br />
-              Secured by Solana and Arweave.
->>>>>>> ebbdf699e3ef0a4b8ac9c3b8f1cd41b35422b901
             </p>
             <div className="mt-4 inline-flex items-center gap-2 px-3 py-1 rounded-full border border-cyan-500/20 bg-cyan-500/5">
               <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
