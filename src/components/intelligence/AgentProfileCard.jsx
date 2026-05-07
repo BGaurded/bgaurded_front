@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Copy, Check, Lock, Cpu } from 'lucide-react';
 import { motion } from 'framer-motion';
+<<<<<<< HEAD
 import AgentStatusSections from './AgentStatusSections';
+=======
+>>>>>>> ebbdf699e3ef0a4b8ac9c3b8f1cd41b35422b901
 
 function getScoreColor(score) {
   if (score >= 800) return { hex: '#10b981', label: 'Excellent', ring: 'rgba(16,185,129,0.2)' };
@@ -115,9 +118,12 @@ export default function AgentProfileCard({ agent, profileData, trustScore, logCo
         </div>
       </div>
 
+<<<<<<< HEAD
       {/* Circuit Breaker, Heartbeat, Hierarchy */}
       <AgentStatusSections agentId={agent.id} />
 
+=======
+>>>>>>> ebbdf699e3ef0a4b8ac9c3b8f1cd41b35422b901
       {/* Metadata rows */}
       <div className="space-y-3 mb-6">
         {[

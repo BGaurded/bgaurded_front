@@ -15,8 +15,11 @@ import Connect from './pages/Connect';
 import IntelligenceLookup from './pages/IntelligenceLookup';
 import IntelligenceDashboard from './pages/IntelligenceDashboard';
 import CustomAgent from './pages/CustomAgent';
+<<<<<<< HEAD
 import YourAgents from './pages/YourAgents';
 import Research from './pages/Research';
+=======
+>>>>>>> ebbdf699e3ef0a4b8ac9c3b8f1cd41b35422b901
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -47,8 +50,11 @@ const AuthenticatedApp = () => {
         <Route path="/marketplace/:agentId" element={<AgentDetail />} />
         <Route path="/connect" element={<Connect />} />
         <Route path="/custom-agent" element={<CustomAgent />} />
+<<<<<<< HEAD
         <Route path="/your-agents" element={<YourAgents />} />
         <Route path="/research" element={<Research />} />
+=======
+>>>>>>> ebbdf699e3ef0a4b8ac9c3b8f1cd41b35422b901
       </Route>
       <Route path="/intelligence" element={<IntelligenceLookup />} />
       <Route path="/intelligence/:agentId" element={<IntelligenceDashboard />} />

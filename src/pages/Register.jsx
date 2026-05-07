@@ -53,7 +53,6 @@ client.notarize(
 # First 100 logs free. After that: $0.002 per log in SOL
 # Same task_id groups DECISION/ACTION/SUMMARY into one card`;
 
-
 const flowSteps = [
   { icon: Terminal, label: 'Install & Register', step: 1, color: 'text-cyan-400', bg: 'from-cyan-400 to-cyan-600' },
   { icon: Zap, label: 'Notarize', step: 2, color: 'text-emerald-400', bg: 'from-emerald-400 to-emerald-600' },
